@@ -1,3 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans");
+/* line 2, ../sass/components/_header.sass */
+.navbar-default {
+  border: 0;
+  background-color: #A53F2B; }
 
+/* line 6, ../sass/components/_header.sass */
+.navbar-brand {
+  height: 115px; }
+
+/* line 9, ../sass/components/_header.sass */
+.navbar-default .navbar-nav > li > a {
+  font-size: 20px;
+  color: #F5E0B7;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s;
+          transition: 0.3s;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7); }
+
+@media (min-width: 992px) {
+  /* line 17, ../sass/components/_header.sass */
+  .navbar-right {
+    top: 55px; } }
+@media (min-width: 768px) {
+  /* line 22, ../sass/components/_header.sass */
+  .navbar-right {
+    float: left;
+    margin: 0;
+    position: relative; } }
+/* line 28, ../sass/components/_header.sass */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: inherit;
+  color: #fff; }
+
+/* line 33, ../sass/components/_header.sass */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  -webkit-transition: 0.3s;
+          transition: 0.3s; }
+
+/* line 38, ../sass/components/_header.sass */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #492C1D; }
+
+/* line 41, ../sass/components/_header.sass */
+.navbar-default .navbar-toggle {
+  border-color: #F5E0B7; }
+
+/* line 44, ../sass/components/_header.sass */
+.navbar-toggle {
+  border: 2px solid transparent;
+  border-radius: 4px; }
+
+/* line 48, ../sass/components/_header.sass */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #F5E0B7; }
+
+/* line 13, ../sass/main.sass */
+body {
+  font-family: "Open Sans", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

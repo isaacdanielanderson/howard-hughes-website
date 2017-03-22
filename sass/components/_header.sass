@@ -1,0 +1,49 @@
+// Header styles
+.navbar-default
+    border: 0
+    background-color: $primary-color
+
+.navbar-brand
+    height: 115px
+
+.navbar-default .navbar-nav>li>a
+    font-size: 20px
+    color: $secondary-color
+    text-transform: uppercase
+    transition: .3s
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, .7)
+
+@media (min-width: 992px)
+    .navbar-right
+        top: 55px
+
+//styles for navbar in large display only
+@media (min-width: 768px)
+    .navbar-right
+        float: left
+        margin: 0
+        position: relative
+
+// styles for active page in nav
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
+    background-color: inherit
+    color: #fff
+
+// styles for hover page in nav
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus
+    color: #fff
+    transition: .3s
+
+// Hamburger menu
+.navbar-default .navbar-toggle .icon-bar
+    background-color: $third-color
+
+.navbar-default .navbar-toggle
+    border-color: $secondary-color
+
+.navbar-toggle
+    border: 2px solid transparent
+    border-radius: 4px
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus
+    background-color: $secondary-color
